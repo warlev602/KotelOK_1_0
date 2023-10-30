@@ -94,8 +94,8 @@ width: 100%;
     }
     
     .right-container {
-        float: none;
-        height: 100%;
+        /* float: none; */
+        /* height: 100%; */
         background-repeat:no-repeat;
         background-size:contain;
         font-weight: bold;
@@ -103,9 +103,6 @@ width: 100%;
         background: rgba(255, 255, 255, 0.507);
     }
     .left-sidebar-bottom>a{
-        color: black;
-        border-radius: 0px;
-        background: rgb(247, 194, 96);
         border:none;
         padding: 20px;
         margin: 10px;
