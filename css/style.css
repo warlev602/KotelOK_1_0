@@ -6,7 +6,7 @@ html, body {
     font-size: 1rem;
 }
 .index-background{
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -18,26 +18,29 @@ html, body {
     background-attachment: fixed;
 
 }
-
+.index-container{
+    display: flex;
+}
 .left-container {
-    width: 33%;
-    padding-right: 5px;  
+    display: flex;
+    width: 35%;
 
 }
 
 .left-sidebar-bottom{
-    min-width: 200px;
+    min-width: 210px;
+    max-width: 280px;
 }
 .left-sidebar-bottom>a{
     display:block;
     color: black;
-    border-radius: 25px;
+    border-radius: 15px;
     background: rgb(247, 194, 96);
-    border: 5px solid white;
+    border: 1px solid white;
     padding: 10px;
     margin: 10px 0px 10px 10px;
     text-decoration: none;
-    max-width: 280px;
+    
 
 
 }   
@@ -54,13 +57,22 @@ html, body {
 
 
 .right-container {
-    width: 33%;
+    display: flex;
+    width: auto;
     
+}
+.right-content{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: rgba(240, 248, 255, 0.795);
 }
 
 
-
 .logo{
+    background-size: contain;
+
     display: flex;
     justify-content: center; 
     padding: 20px 0;
@@ -70,6 +82,8 @@ html, body {
     color: rgb(247, 107, 13);
 }
 
+/* @media <=1400 */
+
 @media screen and (max-width: 1400px) 
 {
     .index-background {
@@ -77,36 +91,35 @@ width: 100%;
     }
 }
 
-
+/* @media <=600 */
 
 @media (max-width: 600px)
 { 
     .index-background {
         width: 100%;
-        display: box;
+        display: block;
+    }
+
+    .index-container{
+        display: flex;
         flex-direction: column;
     }
     .left-container{
-        display: block;
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    
-    .right-container {
-        /* float: none; */
-        /* height: 100%; */
-        background-repeat:no-repeat;
-        background-size:contain;
-        font-weight: bold;
-        font-size: larger;
-        background: rgba(255, 255, 255, 0.507);
+    .left-sidebar-bottom{
+        max-width: 100%;
     }
     .left-sidebar-bottom>a{
-        border:none;
+        border:1px solid white;
         padding: 20px;
         margin: 10px;
         text-decoration: none;
         max-width: 100%;
+    }
+    .nav{
+        width: 100%;
     }
 }
