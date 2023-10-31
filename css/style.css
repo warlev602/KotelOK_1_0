@@ -83,7 +83,7 @@ width: 100%;
 { 
     .index-background {
         width: 100%;
-        display: table;
+        display: box;
         flex-direction: column;
     }
     .left-container{
