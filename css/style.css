@@ -18,6 +18,17 @@ html, body {
     background-attachment: fixed;
 
 }
+.logo{
+    background-size: contain;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic; 
+    color: rgb(247, 107, 13);
+}
 .index-container{
     display: flex;
 }
@@ -58,7 +69,7 @@ html, body {
 
 .right-container {
     display: flex;
-    width: auto;
+    width: 100%;
     
 }
 .right-content{
@@ -69,17 +80,8 @@ html, body {
     background-color: rgba(240, 248, 255, 0.795);
 }
 
+.tablee{
 
-.logo{
-    background-size: contain;
-    -webkit-text-stroke: 2px black;
-    display: flex;
-    justify-content: center; 
-    padding: 20px 0;
-    font-size: 3rem;
-    font-weight: 700;
-    font-style: italic; 
-    color: rgb(247, 107, 13);
 }
 
 /* @media <=1400 */
