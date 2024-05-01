@@ -77,15 +77,11 @@ html, body {
     border-color: white;
     background-color: rgba(66, 49, 12, 0.795);
     overflow: scroll;
+    text-align: center;
 }
 
-.tablee{
-    width: 100%;
-    text-align: center;
-    
-}
 .table{
-    border-collapse: collapse;
+    border-collapse: collapse;   
 }
 thead {
     position: -webkit-sticky; /* for Safari */
@@ -140,12 +136,14 @@ width: 100%;
 { 
     .index-background {
         width: 100%;
+        height: 100%;
         display: block;
     }
 
     .index-container{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .left-container{
         width: 100%;
