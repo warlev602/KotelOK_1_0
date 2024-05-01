@@ -34,7 +34,7 @@ html, body {
 }
 .left-container {
     display: flex;
-    width: 35%;
+    width: auto;
 
 }
 
@@ -69,7 +69,7 @@ html, body {
 
 .right-content{
     max-width: 100%;
-    height: 30%;
+    height: 70%;
     margin: 10px;
     padding: 2px;
     border-radius: 5px;
@@ -151,7 +151,7 @@ width: 100%;
     }
     .left-container{
         width: 100%;
-        height: 30%;
+        height: auto;
     }
     .left-sidebar-bottom{
         max-width: 100%;
@@ -164,6 +164,6 @@ width: 100%;
     }
     .right-content{
         width: auto;
-        height: 50%;
+        height: 70%;
     }
 }
