@@ -46,7 +46,7 @@ html, body {
     display:block;
     color: black;
     border-radius: 15px;
-    background: rgb(247, 194, 96);
+    background: #f7c260;
     border: 1px solid white;
     padding: 20px;
     margin: 10px 0px 10px 10px;
@@ -71,13 +71,11 @@ html, body {
     max-width: 100%;
     max-height: 250px;
     margin: 10px;
-    padding: 20px;
+    padding: 2px;
     border-radius: 15px;
-    border: 1px solid;
+    border: 2px solid;
     background-color: rgba(240, 248, 255, 0.795);
     overflow: scroll;
-    
-    
 }
 
 .tablee{
@@ -92,30 +90,35 @@ thead {
     position: -webkit-sticky; /* for Safari */
     position: sticky;
     top: 0;
-    background: #f7c260;
     background: #c98507;
     color: #000000;
+    z-index: 1;
   }
 tbody th {
     position: -webkit-sticky; /* for Safari */
-  position: sticky;
-  left: 0;
-  border: 1px solid #033608;
-  
-}
-tbody th {
+    position: sticky;
+    left: 0;
+    border: 1px solid #000000;
     background: #c98507;
-    background: #f7c260;
-    border-right: 1px solid #000000;
+    border-right: 1px solid #f8f8f8;
 }
 thead th:first-child {
     left: 0;
-    z-index: 1;
+    z-index: 0;
 }
 td, th {
     padding: 0.5em;
+    border-radius: 5px;
 }
-
+td{
+    border: 1px solid #c98507;
+    border-radius: 10px;
+    background-color: #f7c260;
+}
+.redDay{
+    background-color: #bb3131;
+    color: white;
+}
 /* @media <=1400 */
 
 @media screen and (max-width: 1400px) 
@@ -152,5 +155,6 @@ width: 100%;
     }
     .right-content{
         width: auto;
+        height: 50%;
     }
 }
