@@ -103,10 +103,11 @@ td, th {
     padding: 0.4em;
     border: 1px solid #000000;
     border-radius: 6px;
-    color: rgb(0, 0, 0);   
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 tbody{
-    background: #f7c260;
+    background: #f7c2607c;
 }
 .redDay{
     background-color: #be1010;
@@ -117,12 +118,14 @@ tbody{
     left: 0;
     background: #c98507;
 } 
+.hvo {
+    background: #cbd699;
+    color: #af0808;
+}
 
 tbody tr:hover{
-color: #000000;
-background-color: rgb(255, 255, 255);
-font-size: larger;
-font-weight: bold;
+background-color:#ffeed6;
+
 }
 
 /* @media <=1400 */
