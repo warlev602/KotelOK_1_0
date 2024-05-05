@@ -20,7 +20,7 @@ html, body {
 }
 .logo{
     background-size: contain;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
     display: flex;
     justify-content: center; 
     padding: 20px 0;
@@ -46,7 +46,7 @@ html, body {
     display:block;
     color: black;
     border-radius: 15px;
-    background: #f7c260;
+    background: #f7d59c;
     border: 1px solid white;
     padding: 20px;
     margin: 10px 0px 10px 10px;
@@ -153,14 +153,19 @@ width: 100%;
         height: 100%;
     }
     .left-container{
+        display: block;
+        flex-direction: row;
         width: 100%;
         height: auto;
     }
     .left-sidebar-bottom{
-        max-width: 100%;
+        display: flex;
+        width: 100%;
+        
     }
     .left-sidebar-bottom>a{
         margin: 10px;
+        width: 50%;
     }
     .nav{
         width: 100%;
