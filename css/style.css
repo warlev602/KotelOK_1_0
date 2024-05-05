@@ -3,6 +3,7 @@
 html, body {
     background: rgb(27, 23, 23);
     height: 100%;
+    overflow:hidden;
     /* font-size: 1rem; */
 }
 .index-background{
