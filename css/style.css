@@ -108,7 +108,7 @@ td, th {
     font-weight: 600;
 }
 tbody{
-    background: #f7c2607c;
+    background: #f7c260;
 }
 .redDay{
     background-color: #be1010;
@@ -174,5 +174,10 @@ width: 100%;
     .right-content{
         width: auto;
         height: 70%;
+    }
+    .gsInformer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
