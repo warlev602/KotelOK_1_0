@@ -111,8 +111,11 @@ tbody{
     background: #f7c260;
 }
 .redDay{
-    background-color: #be1010;
+    background-color: #bc1010;
     color: white;
+}
+.red{
+    border: 2px solid #bc1010;
 }
 .mon, .yea {
     position: sticky;
